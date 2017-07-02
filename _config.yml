@@ -1,0 +1,36 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Skye Landgraf
+tagline:             playwright
+url:                 https://skyelandgraf.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Gems
+gems:
+  - jekyll-paginate
+
+# Include / Exclude
+exclude: [_dev/]
+
+# Collections
+collections: 
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Tags
+tags: 
+  - playwriting
+  - directing
+  - design
+  - samples
