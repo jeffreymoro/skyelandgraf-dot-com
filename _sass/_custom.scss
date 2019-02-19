@@ -2,7 +2,7 @@
 
 // Fonts
 
-// Call fonts 
+// Call fonts
 @font-face {
     font-family: 'Adelle';
     src: url("/assets/fonts/adelle.woff");
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .header {
-	background-color: #ff7600;
+	background-color: #009a8c;
 	margin-left: -1000rem;
 	margin-right: -1000rem;
 	margin-bottom: 1rem;
@@ -105,8 +105,7 @@ a:hover {
 }
 
 body {
-    background-image: url("public/img/tile.jpg");
-    background-repeat: repeat;
+    background-color: lightgray;
 }
 
 .body-text {
@@ -120,7 +119,7 @@ h5 {
 }
 
 .footer-text {
-	background-color: #ff7600;
+	background-color: #009a8c;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	padding: 0.5rem 2rem 0.5rem 2rem;
@@ -167,7 +166,7 @@ h5 {
     padding: 5px;
 }
 
-// Columns 
+// Columns
 
 .one-half,
 .one-third,
